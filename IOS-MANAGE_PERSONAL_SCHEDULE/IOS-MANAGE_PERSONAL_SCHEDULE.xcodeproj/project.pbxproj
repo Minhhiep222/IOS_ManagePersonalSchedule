@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE679EA92BFE4CA40054C710 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE679EA62BFE410A0054C710 /* CalendarCell.swift */; };
 		CE679EAB2BFE55CF0054C710 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE679EAA2BFE55CF0054C710 /* CalendarHelper.swift */; };
 		CE729C3F2BFCCAC2009269E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE729C3E2BFCCAC2009269E1 /* AppDelegate.swift */; };
 		CE729C412BFCCAC2009269E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE729C402BFCCAC2009269E1 /* SceneDelegate.swift */; };
@@ -18,6 +17,14 @@
 		CE729C562BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE729C552BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULETests.swift */; };
 		CE729C602BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE729C5F2BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITests.swift */; };
 		CE729C622BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE729C612BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITestsLaunchTests.swift */; };
+		CECC785F2BFF2856001A194B /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC78572BFF2856001A194B /* EventCell.swift */; };
+		CECC78602BFF2856001A194B /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC78582BFF2856001A194B /* DailyViewController.swift */; };
+		CECC78612BFF2856001A194B /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC78592BFF2856001A194B /* CalendarDay.swift */; };
+		CECC78622BFF2856001A194B /* DailyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC785A2BFF2856001A194B /* DailyCell.swift */; };
+		CECC78632BFF2856001A194B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC785B2BFF2856001A194B /* Event.swift */; };
+		CECC78642BFF2856001A194B /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC785C2BFF2856001A194B /* EventEditViewController.swift */; };
+		CECC78662BFF2856001A194B /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC785E2BFF2856001A194B /* WeeklyViewController.swift */; };
+		CECC78682BFF2856001A194B /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC78672BFF2856001A194B /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE679EA62BFE410A0054C710 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		CE679EAA2BFE55CF0054C710 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		CE729C3B2BFCCAC2009269E1 /* IOS-MANAGE_PERSONAL_SCHEDULE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-MANAGE_PERSONAL_SCHEDULE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE729C3E2BFCCAC2009269E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,14 @@
 		CE729C5B2BFCCAC6009269E1 /* IOS-MANAGE_PERSONAL_SCHEDULEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-MANAGE_PERSONAL_SCHEDULEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE729C5F2BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_MANAGE_PERSONAL_SCHEDULEUITests.swift; sourceTree = "<group>"; };
 		CE729C612BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_MANAGE_PERSONAL_SCHEDULEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CECC78572BFF2856001A194B /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		CECC78582BFF2856001A194B /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		CECC78592BFF2856001A194B /* CalendarDay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
+		CECC785A2BFF2856001A194B /* DailyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyCell.swift; sourceTree = "<group>"; };
+		CECC785B2BFF2856001A194B /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		CECC785C2BFF2856001A194B /* EventEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		CECC785E2BFF2856001A194B /* WeeklyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		CECC78672BFF2856001A194B /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 		CE729C322BFCCAC2009269E1 = {
 			isa = PBXGroup;
 			children = (
+				CECC786C2BFF2856001A194B /* Model */,
 				CE729C3D2BFCCAC2009269E1 /* IOS-MANAGE_PERSONAL_SCHEDULE */,
 				CE729C542BFCCAC6009269E1 /* IOS-MANAGE_PERSONAL_SCHEDULETests */,
 				CE729C5E2BFCCAC6009269E1 /* IOS-MANAGE_PERSONAL_SCHEDULEUITests */,
@@ -103,15 +118,9 @@
 		CE729C3D2BFCCAC2009269E1 /* IOS-MANAGE_PERSONAL_SCHEDULE */ = {
 			isa = PBXGroup;
 			children = (
-				CE729C402BFCCAC2009269E1 /* SceneDelegate.swift */,
-				CE729C472BFCCAC6009269E1 /* Assets.xcassets */,
-				CE729C492BFCCAC6009269E1 /* LaunchScreen.storyboard */,
-				CE729C4C2BFCCAC6009269E1 /* Info.plist */,
-				CE729C3E2BFCCAC2009269E1 /* AppDelegate.swift */,
-				CE729C422BFCCAC2009269E1 /* ViewController.swift */,
+				CECC786B2BFF2856001A194B /* System files */,
+				CECC78692BFF2856001A194B /* Controllers */,
 				CE729C442BFCCAC2009269E1 /* Main.storyboard */,
-				CE679EAA2BFE55CF0054C710 /* CalendarHelper.swift */,
-				CE679EA62BFE410A0054C710 /* CalendarCell.swift */,
 			);
 			path = "IOS-MANAGE_PERSONAL_SCHEDULE";
 			sourceTree = "<group>";
@@ -131,6 +140,42 @@
 				CE729C612BFCCAC6009269E1 /* IOS_MANAGE_PERSONAL_SCHEDULEUITestsLaunchTests.swift */,
 			);
 			path = "IOS-MANAGE_PERSONAL_SCHEDULEUITests";
+			sourceTree = "<group>";
+		};
+		CECC78692BFF2856001A194B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE729C422BFCCAC2009269E1 /* ViewController.swift */,
+				CECC785E2BFF2856001A194B /* WeeklyViewController.swift */,
+				CECC785C2BFF2856001A194B /* EventEditViewController.swift */,
+				CECC78582BFF2856001A194B /* DailyViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CECC786B2BFF2856001A194B /* System files */ = {
+			isa = PBXGroup;
+			children = (
+				CE729C402BFCCAC2009269E1 /* SceneDelegate.swift */,
+				CE729C472BFCCAC6009269E1 /* Assets.xcassets */,
+				CE729C492BFCCAC6009269E1 /* LaunchScreen.storyboard */,
+				CE729C4C2BFCCAC6009269E1 /* Info.plist */,
+				CE729C3E2BFCCAC2009269E1 /* AppDelegate.swift */,
+			);
+			name = "System files";
+			sourceTree = "<group>";
+		};
+		CECC786C2BFF2856001A194B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE679EAA2BFE55CF0054C710 /* CalendarHelper.swift */,
+				CECC78672BFF2856001A194B /* CalendarCell.swift */,
+				CECC78592BFF2856001A194B /* CalendarDay.swift */,
+				CECC785A2BFF2856001A194B /* DailyCell.swift */,
+				CECC785B2BFF2856001A194B /* Event.swift */,
+				CECC78572BFF2856001A194B /* EventCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,11 +309,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECC78602BFF2856001A194B /* DailyViewController.swift in Sources */,
 				CE679EAB2BFE55CF0054C710 /* CalendarHelper.swift in Sources */,
 				CE729C432BFCCAC2009269E1 /* ViewController.swift in Sources */,
 				CE729C3F2BFCCAC2009269E1 /* AppDelegate.swift in Sources */,
+				CECC78632BFF2856001A194B /* Event.swift in Sources */,
+				CECC78612BFF2856001A194B /* CalendarDay.swift in Sources */,
 				CE729C412BFCCAC2009269E1 /* SceneDelegate.swift in Sources */,
-				CE679EA92BFE4CA40054C710 /* CalendarCell.swift in Sources */,
+				CECC785F2BFF2856001A194B /* EventCell.swift in Sources */,
+				CECC78662BFF2856001A194B /* WeeklyViewController.swift in Sources */,
+				CECC78642BFF2856001A194B /* EventEditViewController.swift in Sources */,
+				CECC78682BFF2856001A194B /* CalendarCell.swift in Sources */,
+				CECC78622BFF2856001A194B /* DailyCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
